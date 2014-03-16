@@ -22,10 +22,11 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Paint;
 import java.awt.event.MouseAdapter;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
 
-public abstract class AccordionItem extends JLabel implements Comparable {
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+
+public abstract class AccordionItem extends JButton implements Comparable {
 
     /** Boolean parameter binds state of element. SELECTED or NOT. */
     protected boolean selected = false;

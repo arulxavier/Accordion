@@ -1,12 +1,6 @@
 package com.fixent.component.accordion;
 
-import java.awt.BorderLayout;
-import java.awt.Component;
 import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
-import javax.swing.JScrollPane;
-import javax.swing.JViewport;
 
 public class MenuClickEvent 
 extends MouseAdapter {

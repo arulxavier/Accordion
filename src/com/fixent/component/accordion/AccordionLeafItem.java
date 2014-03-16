@@ -23,8 +23,6 @@ import java.awt.Paint;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import javax.swing.ImageIcon;
-
 public class AccordionLeafItem extends AccordionItem {
 
     /**
@@ -68,8 +66,19 @@ public class AccordionLeafItem extends AccordionItem {
      */
     @Override
     public Paint getDefaultBackgroundPaint() {
-    	Color c1, c2;
-    	c2 = new Color(214,224,232);
+    	/*Color c1, c2;
+    	c2 = new Color(61, 86, 109);
+        return new GradientPaint(0, 0, c2, 0, getHeight(), c2);*/
+
+        Color c1, c2;
+        if (isSelected()) {
+        	c2 = new Color(61, 86, 109);
+            c1 = new Color(204,0,0);
+        } else {
+        	c2 = new Color(145, 160, 175);
+             c1 = new Color(153,204,255);
+        }
         return new GradientPaint(0, 0, c2, 0, getHeight(), c2);
+    
     }
 }

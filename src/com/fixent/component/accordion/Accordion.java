@@ -4,14 +4,11 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.util.HashMap;
 import java.util.Map;
 
 import javax.swing.BoxLayout;
 import javax.swing.JPanel;
-import javax.swing.JTextField;
 import javax.swing.border.LineBorder;
 
 public final class Accordion 
@@ -44,7 +41,7 @@ extends JPanel {
             accordionMenu = new AccordionMenu();
             createSampleMenuStructure(accordionMenu);
             accordionMenu.setBackground(Color.white);
-            accordionMenu.setForeground(new Color(61,86,109));
+            accordionMenu.setForeground(new Color(255,255,255));
             accordionMenu.setFont(new Font("monospaced", Font.PLAIN, 17));
             accordionMenu.setMenusSize(38);
             accordionMenu.setMenuBorders(new javax.swing.border.LineBorder(Color.WHITE, 1, true));

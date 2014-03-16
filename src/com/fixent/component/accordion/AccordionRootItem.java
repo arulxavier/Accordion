@@ -59,10 +59,12 @@ public class AccordionRootItem extends AccordionItem {
     public Paint getDefaultBackgroundPaint() {
         Color c1, c2;
         if (isSelected()) {
-            c2 = new Color(214,224,232);
+//        	c2 = new Color(61, 86, 109);
+        	c2 = new Color(240, 122, 66);
             c1 = new Color(204,0,0);
         } else {
-        	 c2 = new Color(214,224,232);
+//        	c2 = new Color(145, 160, 175);
+        	c2 = new Color(240, 122, 66);
              c1 = new Color(153,204,255);
         }
         return new GradientPaint(0, 0, c2, 0, getHeight(), c2);

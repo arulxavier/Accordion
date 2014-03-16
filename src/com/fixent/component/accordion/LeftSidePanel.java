@@ -1,7 +1,6 @@
 package com.fixent.component.accordion;
 
 import java.awt.BorderLayout;
-import java.awt.Menu;
 import java.util.HashMap;
 import java.util.Map;
 
